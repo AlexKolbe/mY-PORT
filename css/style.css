@@ -1,0 +1,31 @@
+body {
+  font-family: "Inter", sans-serif;
+}
+.header {
+  max-width: 870px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.nav-item-link {
+  text-decoration: none;
+  color: #bf7506;
+  margin-left: 24px;
+}
+
+.activ {
+  font-weight: 700;
+}

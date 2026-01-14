@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My-portfolio</title>
+    <link href="./css/normalize.css" rel="stylesheet" />
     <link href="./css/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,7 +14,7 @@
     />
   </head>
   <body>
-    <header class="header">
+    <header class="header container">
       <img class="logo" src="./images/logo.svg" alt="logo" />
       <nav class="navigation">
         <ul class="nav-list">
@@ -32,5 +33,67 @@
         </ul>
       </nav>
     </header>
+    <main class="main">
+      <section class="hero container">
+        <img
+          class="hero-photo"
+          src="./images/avatar.png"
+          alt="avatar"
+          width="212"
+          height="240"
+        />
+        <div class="hero-text">
+          <strong class="hero-text-strong">Привет 👋</strong>
+          <h1 class="hero-title">
+            <span>Я фронтенд-разработчик и веб-дизайнер</span><br />
+            Меня зовут Артем Исламов и я делаю сайты для людей и компаний
+          </h1>
+          <div class="hero-links">
+            <ul class="hero-social">
+              <li class="hero-social-item">
+                <img
+                  src="./images/linkedin.svg"
+                  alt="linkedin"
+                  width="24"
+                  height="24"
+                />
+              </li>
+              <li class="hero-social-item">
+                <img
+                  src="./images/twitter.svg"
+                  alt="twitter"
+                  width="24"
+                  height="24"
+                />
+              </li>
+              <li class="hero-social-item">
+                <img
+                  src="./images/github.svg"
+                  alt="github"
+                  width="24"
+                  height="24"
+                />
+              </li>
+              <li class="hero-social-item">
+                <img
+                  src="./images/stackoverflow.svg"
+                  alt="stackovrflow"
+                  width="24"
+                  height="24"
+                />
+              </li>
+              <li class="hero-social-item">
+                <img
+                  src="./images/youtube.svg"
+                  alt="youtube"
+                  width="24"
+                  height="24"
+                />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

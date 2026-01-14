@@ -1,13 +1,19 @@
 body {
   font-family: "Inter", sans-serif;
 }
-.header {
+
+.container {
   max-width: 870px;
+  margin: 0 auto;
   width: 100%;
+}
+
+.header {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 72px;
 }
 
 .nav-list {
@@ -28,4 +34,53 @@ body {
 
 .activ {
   font-weight: 700;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-photo {
+  margin-right: 27px;
+}
+
+.hero-text {
+  max-width: 510px;
+}
+
+.hero-text-strong {
+  font-size: 48px;
+  line-height: 125%;
+  font-weight: 700;
+  color: #211b12;
+}
+
+.hero-title {
+  font-size: 24px;
+  line-height: 135%;
+  font-weight: 700;
+}
+
+.hero-title span {
+  color: #bf7506;
+}
+
+.hero-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+.hero-social-item {
+  margin: 8px;
+  padding: 0;
 }

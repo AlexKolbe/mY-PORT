@@ -1,11 +1,17 @@
 body {
   font-family: "Inter", sans-serif;
+  color: #211b12;
 }
 
 .container {
   max-width: 870px;
   margin: 0 auto;
   width: 100%;
+}
+
+.button {
+  border-bottom: 2px solid#bf7506;
+  padding: 7px 8px;
 }
 
 .header {
@@ -44,6 +50,7 @@ body {
 
 .hero-photo {
   margin-right: 27px;
+  margin-bottom: 72px;
 }
 
 .hero-text {
@@ -54,7 +61,6 @@ body {
   font-size: 48px;
   line-height: 125%;
   font-weight: 700;
-  color: #211b12;
 }
 
 .hero-title {
@@ -69,8 +75,9 @@ body {
 
 .hero-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: start;
   align-items: center;
+  column-gap: 64px;
 }
 
 .hero-social {
@@ -78,9 +85,122 @@ body {
   justify-content: space-between;
   align-items: center;
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .hero-social-item {
-  margin: 8px;
+  margin-right: 16px;
+}
+
+.hero-download {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-download-helper {
+  width: 11px;
+  height: 24px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+}
+
+.hero-download-text {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+  align-content: center;
+}
+
+.lastprogect-title {
+  font-size: 48px;
+  line-height: 125%;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: #bf7506;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.lastprogect-list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 72px;
   padding: 0;
+  list-style: none;
+}
+
+.lastprogect-item {
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.lastprogect-item-img {
+  margin-bottom: 16px;
+}
+
+.lastprogect-item-title {
+  color: #bf7506;
+  font-size: 24px;
+  line-height: 135%;
+  font-weight: 700;
+  letter-spacing: -0.02.em;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.lastprogect-tech-list {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.lastprogect-tech-item {
+  padding: 5px 8px 4px;
+  border: 1px solid#dd9c3c;
+  border-radius: 4px;
+  margin-right: 4px;
+}
+
+.lastprogect-description {
+  margin: 0;
+  margin-bottom: 17px;
+}
+
+.lastprogect-text-item-text {
+  font-size: 12px;
+  line-height: 150%;
+  font-weight: 400;
+}
+
+.lastrpgect-button-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.lastprogect-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.lastprogect-button-text {
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 700;
+}
+
+.oops {
+  margin: 6px 2px;
+}
+
+.bird {
+  margin: 2px 0;
 }

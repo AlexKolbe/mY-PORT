@@ -61,12 +61,17 @@ body {
   font-size: 48px;
   line-height: 125%;
   font-weight: 700;
+  margin-bottom: 8px;
+  letter-spacing: -0.03em;
 }
 
 .hero-title {
   font-size: 24px;
   line-height: 135%;
   font-weight: 700;
+  margin: 0;
+  margin-bottom: 24px;
+  letter-spacing: -0.02em;
 }
 
 .hero-title span {
@@ -77,7 +82,7 @@ body {
   display: flex;
   justify-content: start;
   align-items: center;
-  column-gap: 64px;
+  column-gap: 55px;
 }
 
 .hero-social {
@@ -89,27 +94,33 @@ body {
   padding-left: 0;
 }
 
+.hero-social-link {
+  cursor: pointer;
+}
+
 .hero-social-item {
   margin-right: 16px;
 }
 
-.hero-download {
+.cv-download {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  text-decoration: none;
 }
 
-.hero-download-helper {
+.cv-download-helper {
   width: 11px;
   height: 24px;
   margin-right: 10px;
-  margin-bottom: 8px;
+  padding: 1px 6px 1px 7px;
 }
 
-.hero-download-text {
+.cv-download-text {
   font-size: 16px;
   line-height: 150%;
   font-weight: 700;
+  color: #211b12;
   align-content: center;
 }
 
@@ -135,6 +146,7 @@ body {
   display: flex;
   justify-content: start;
   flex-direction: column;
+  margin-bottom: 120px;
 }
 
 .lastprogect-item-img {
@@ -203,4 +215,59 @@ body {
 
 .bird {
   margin: 2px 0;
+}
+
+.developer {
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-bottom: 40px;
+}
+
+.developer-photo {
+  border-radius: 20px;
+  margin-right: 56px;
+  width: 360px;
+  height: 440px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+
+.developer-about {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.developer-hello {
+  margin-top: 27px;
+  margin-bottom: 4px;
+  font-size: 24px;
+  line-height: 135%;
+  letter-spacing: -0.02em;
+}
+
+.developer-title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 125%;
+  letter-spacing: -0.03em;
+  color: #bf7506;
+}
+
+.motto {
+  margin-bottom: 16px;
+  margin-top: 0;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.developer-text {
+  margin-bottom: 32px;
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 150%;
+  color: #bf7506;
 }

@@ -19,22 +19,22 @@
       <nav class="navigation">
         <ul class="nav-list">
           <li class="nav-item">
-            <a class="nav-item-link activ" href="#">Главная</a>
+            <a class="nav-item-link activ" href="#main">Главная</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item-link" href="#">Проекты</a>
+            <a class="nav-item-link" href="#lastprogect">Проекты</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item-link" href="#">Обо мне</a>
+            <a class="nav-item-link" href="#developer">Обо мне</a>
           </li>
           <li class="nav-item">
-            <a class="nav-item-link" href="#">Связаться</a>
+            <a class="nav-item-link" href="#feedback">Связаться</a>
           </li>
         </ul>
       </nav>
     </header>
     <main class="main">
-      <section class="hero container">
+      <section class="hero container" id="main">
         <img
           class="hero-photo"
           src="./images/avatar.png"
@@ -101,7 +101,7 @@
                 </a>
               </li>
             </ul>
-            <a class="cv-download button" href="#" download>
+            <a class="cv-download button" href="cv.pdf" download>
               <img
                 class="cv-download-helper"
                 src="./images/helper.svg"
@@ -112,7 +112,7 @@
           </div>
         </div>
       </section>
-      <section class="lastprogect container">
+      <section class="lastprogect container" id="lastprogect">
         <h2 class="lastprogect-title">Последние проекты</h2>
 
         <ul class="lastprogect-list">
@@ -203,7 +203,7 @@
           </li>
         </ul>
       </section>
-      <section class="developer container">
+      <section class="developer container" id="developer">
         <img
           class="developer-photo"
           src="./images/avatar2.png"
@@ -265,36 +265,42 @@
           </li>
         </ul>
       </section>
-      <section class="feedback form-container">
-        <h2 class="feedback-title">Готов обсудить проект...</h2>
-        <form class="form" action="#">
-          <div class="input-group">
-            <label class="input-label" for="username">Имя</label>
-            <input class="input" type="text" id="username" />
-          </div>
-          <div class="input-group">
-            <label class="input-label" for="useremail">Email</label>
-            <input class="input" type="email" id="useremail" />
-          </div>
-          <div class="input-group">
-            <label class="input-label" for="usermessage">Сообщение</label>
-            <textarea
-              class="textarea"
-              name="usermessage"
-              id="usermessage"
-            ></textarea>
-          </div>
-          <div class="button-group">
-            <button class="send-tg" type="submit">
-              <img
-                class="send-tg-img"
-                src="./images/tg.svg"
-                alt="send"
-              />Отправить
-            </button>
-          </div>
-        </form>
+      <section class="feedback" id="feedback">
+        <img class="feedback-hand" src="./images/hand.png" alt="hand" />
+        <div class="form-container">
+          <h2 class="feedback-title">Готов обсудить проект...</h2>
+          <form class="form" action="#">
+            <div class="input-group">
+              <label class="input-label" for="username">Имя</label>
+              <input class="input" type="text" id="username" />
+            </div>
+            <div class="input-group">
+              <label class="input-label" for="useremail">Email</label>
+              <input class="input" type="email" id="useremail" />
+            </div>
+            <div class="input-group">
+              <label class="input-label" for="usermessage">Сообщение</label>
+              <textarea
+                class="textarea"
+                name="usermessage"
+                id="usermessage"
+              ></textarea>
+            </div>
+            <div class="button-group">
+              <button class="send-tg" type="submit">
+                <img
+                  class="send-tg-img"
+                  src="./images/tg.svg"
+                  alt="send"
+                />Отправить
+              </button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
+    <footer class="footer container">
+      <span class="footer-text">Сделано с ❤️ в Казани</span>
+    </footer>
   </body>
 </html>
